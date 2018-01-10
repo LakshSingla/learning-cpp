@@ -9,13 +9,14 @@ int main(){
 	int   i_shillings = 0;
 	int   i_pence = 0;
 	int   temp = 0;
+	const unsigned char POUND= '\x9c';
 	cout<<"Enter decimal pounds: ";
 	cin>>f_pounds;
 	i_pounds = static_cast<int>(f_pounds);
 	f_shillings = (f_pounds - i_pounds) * 20;
 	i_shillings = static_cast<int>(f_shillings);
 	i_pence = static_cast<int>((f_shillings - i_shillings) * 12);
-       	cout<<"Equivalent in old style notation: \x9c"<<i_pounds<<"."<<i_shillings<<"."<<i_pence;	
+       	cout<<"Equivalent in old style notation: "<<POUND<<i_pounds<<"."<<i_shillings<<"."<<i_pence;	
 	cout<<endl;
 	return 0;
 }
