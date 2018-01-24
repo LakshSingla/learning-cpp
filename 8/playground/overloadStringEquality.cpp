@@ -26,6 +26,7 @@ int main(){
 	userString a("KKHi");
 	userString b("KKHi");
 	userString c("KKHj");
+	cout<<boolalpha;
 	cout<<(a==c);
 	cout<<(a==b);
 	cout<<endl;
