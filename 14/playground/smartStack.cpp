@@ -6,12 +6,11 @@ class SmartStack{
     private:
     static const int MAX = 3;
     int stack[MAX];
+    int top;
     public:
-    SmartStack(){}
-   
+    SmartStack():top(0){}
 };
 
 int main(){
-
-
+    
 }
