@@ -9,10 +9,10 @@ class A{
 
 class B : public A {
 	public : 
-	using A::print; 
-	void print(){
+	A::print; 
+	/*void print(){
 		std::cout<<"In the public portion of the print function, class B"<<std::endl;
-	}
+	}*/
 };
 
 int main(){
