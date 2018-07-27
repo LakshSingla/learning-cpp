@@ -1,6 +1,6 @@
 a.out
 .idea/
 cmake-build-debug/
-.swp
+*.swp
 msoftcon.zip
 msoftcon/
